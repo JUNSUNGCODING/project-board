@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.155s</div>
+<div class="counter">0.721s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,25 +81,25 @@
 <tr>
 <td class="success">delete 테스트</td>
 <td class="success">givenTestDate_whenDeleting_thenWorksFine()</td>
-<td class="success">0.375s</td>
+<td class="success">0.213s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">insert 테스트</td>
 <td class="success">givenTestDate_whenInserting_thenWorksFine()</td>
-<td class="success">0.079s</td>
+<td class="success">0.020s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">select 테스트</td>
 <td class="success">givenTestDate_whenSelecting_thenWorksFine()</td>
-<td class="success">0.594s</td>
+<td class="success">0.439s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">update 테스트</td>
 <td class="success">givenTestDate_whenUpdating_thenWorksFine()</td>
-<td class="success">0.107s</td>
+<td class="success">0.049s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -107,14 +107,14 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>00:03:45.255 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [JpaRepositoryTest]: using SpringBootContextLoader
-00:03:45.268 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.firstproject.projectboard.repository.JpaRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-00:03:45.270 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.firstproject.projectboard.repository.JpaRepositoryTest]: JpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-00:03:45.402 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Using ContextCustomizers for test class [JpaRepositoryTest]: [DisableAutoConfigurationContextCustomizer, DisableObservabilityContextCustomizer, TypeExcludeFiltersContextCustomizer, PropertyMappingContextCustomizer, Customizer, ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer]
-00:03:45.587 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\JUNSUNG\Desktop\fastcampus\firstProject\project-board\build\classes\java\main\com\firstproject\projectboard\ProjectBoardApplication.class]
-00:03:45.590 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.firstproject.projectboard.ProjectBoardApplication for test class com.firstproject.projectboard.repository.JpaRepositoryTest
-00:03:45.648 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Using TestExecutionListeners for test class [JpaRepositoryTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
-00:03:45.651 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [JpaRepositoryTest], class annotated with @DirtiesContext [false] with mode [null]
+<pre>01:11:16.229 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [JpaRepositoryTest]: using SpringBootContextLoader
+01:11:16.234 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.firstproject.projectboard.repository.JpaRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:11:16.235 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.firstproject.projectboard.repository.JpaRepositoryTest]: JpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:11:16.275 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Using ContextCustomizers for test class [JpaRepositoryTest]: [DisableAutoConfigurationContextCustomizer, DisableObservabilityContextCustomizer, TypeExcludeFiltersContextCustomizer, PropertyMappingContextCustomizer, Customizer, ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer]
+01:11:16.327 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\준성이\Desktop\fastcampus\FirstProject\project-board\build\classes\java\main\com\firstproject\projectboard\ProjectBoardApplication.class]
+01:11:16.329 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.firstproject.projectboard.ProjectBoardApplication for test class com.firstproject.projectboard.repository.JpaRepositoryTest
+01:11:16.348 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper - Using TestExecutionListeners for test class [JpaRepositoryTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+01:11:16.350 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [JpaRepositoryTest], class annotated with @DirtiesContext [false] with mode [null]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -124,17 +124,17 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.1)
 
-2023-01-02T00:03:46.728+09:00  INFO 9288 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Starting JpaRepositoryTest using Java 19.0.1 with PID 9288 (started by JUNSUNG in C:\Users\JUNSUNG\Desktop\fastcampus\firstProject\project-board)
-2023-01-02T00:03:46.731+09:00 DEBUG 9288 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Running with Spring Boot v3.0.1, Spring v6.0.3
-2023-01-02T00:03:46.734+09:00  INFO 9288 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2023-01-02T00:03:47.854+09:00  INFO 9288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-01-02T00:03:48.001+09:00  INFO 9288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 2 JPA repository interfaces.
-2023-01-02T00:03:48.114+09:00  INFO 9288 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2023-01-02T00:03:48.482+09:00  INFO 9288 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:9d4dcfea-ca7d-49c7-a8fb-ef1d83c28329;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2023-01-02T00:03:49.074+09:00  INFO 9288 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-01-02T00:03:49.205+09:00  INFO 9288 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
-2023-01-02T00:03:49.523+09:00  WARN 9288 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2023-01-02T00:03:49.860+09:00  INFO 9288 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-03T01:11:16.705+09:00  INFO 16136 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Starting JpaRepositoryTest using Java 17.0.5 with PID 16136 (started by 준성이 in C:\Users\준성이\Desktop\fastcampus\FirstProject\project-board)
+2023-01-03T01:11:16.706+09:00 DEBUG 16136 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-03T01:11:16.706+09:00  INFO 16136 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-01-03T01:11:17.018+09:00  INFO 16136 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-03T01:11:17.071+09:00  INFO 16136 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2023-01-03T01:11:17.130+09:00  INFO 16136 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-01-03T01:11:17.294+09:00  INFO 16136 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:befc8e31-125b-404c-a372-e51679727bc3;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-01-03T01:11:17.539+09:00  INFO 16136 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-03T01:11:17.601+09:00  INFO 16136 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-03T01:11:17.764+09:00  WARN 16136 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-03T01:11:17.921+09:00  INFO 16136 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 Hibernate: 
     
     drop table if exists article cascade 
@@ -145,12 +145,12 @@ Hibernate:
     
     create table article (
        id bigint generated by default as identity,
-        content varchar(10000) not null,
         created_at timestamp(6) not null,
         created_by varchar(100) not null,
-        hashtag varchar(255),
         modified_at timestamp(6) not null,
         modified_by varchar(100) not null,
+        content varchar(10000) not null,
+        hashtag varchar(255),
         title varchar(255) not null,
         primary key (id)
     )
@@ -158,11 +158,11 @@ Hibernate:
     
     create table article_comment (
        id bigint generated by default as identity,
-        content varchar(500) not null,
         created_at timestamp(6) not null,
         created_by varchar(100) not null,
         modified_at timestamp(6) not null,
         modified_by varchar(100) not null,
+        content varchar(500) not null,
         article_id bigint not null,
         primary key (id)
     )
@@ -179,9 +179,9 @@ Hibernate:
        add constraint FKghmocqkgqs5tkmucf5putw64t 
        foreign key (article_id) 
        references article
-2023-01-02T00:03:51.604+09:00  INFO 9288 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-01-02T00:03:51.622+09:00  INFO 9288 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-01-02T00:03:52.343+09:00  INFO 9288 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Started JpaRepositoryTest in 6.558 seconds (process running for 9.311)
+2023-01-03T01:11:18.696+09:00  INFO 16136 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-03T01:11:18.705+09:00  INFO 16136 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-03T01:11:19.080+09:00  INFO 16136 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Started JpaRepositoryTest in 2.684 seconds (process running for 3.617)
 Hibernate: 
     select
         a1_0.id,
@@ -268,8 +268,6 @@ Hibernate:
         article 
     set
         content=?,
-        created_at=?,
-        created_by=?,
         hashtag=?,
         modified_at=?,
         modified_by=?,
@@ -304,7 +302,7 @@ Hibernate:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.6</a> at 2023. 1. 2. 오전 12:03:53</p>
+<a href="http://www.gradle.org">Gradle 7.6</a> at 2023. 1. 3. 오전 1:11:19</p>
 </div>
 </div>
 </body>
