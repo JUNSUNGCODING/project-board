@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JPA 연결 테스트" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-03T14:31:54" hostname="DESKTOP-L8QAT46" time="0.441">
+<testsuite name="JPA 연결 테스트" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-03T16:51:54" hostname="DESKTOP-L8QAT46" time="0.261">
   <properties/>
-  <testcase name="select 테스트" classname="com.firstproject.projectboard.repository.JpaRepositoryTest" time="0.223"/>
-  <testcase name="delete 테스트" classname="com.firstproject.projectboard.repository.JpaRepositoryTest" time="0.167"/>
-  <testcase name="update 테스트" classname="com.firstproject.projectboard.repository.JpaRepositoryTest" time="0.033"/>
+  <testcase name="select 테스트" classname="com.firstproject.projectboard.repository.JpaRepositoryTest" time="0.083"/>
+  <testcase name="delete 테스트" classname="com.firstproject.projectboard.repository.JpaRepositoryTest" time="0.139"/>
+  <testcase name="update 테스트" classname="com.firstproject.projectboard.repository.JpaRepositoryTest" time="0.021"/>
   <testcase name="insert 테스트" classname="com.firstproject.projectboard.repository.JpaRepositoryTest" time="0.014"/>
-  <system-out><![CDATA[2023-01-03T23:31:54.139+09:00  INFO 17812 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.firstproject.projectboard.repository.JpaRepositoryTest]: JpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-01-03T23:31:54.158+09:00  INFO 17812 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.firstproject.projectboard.ProjectBoardApplication for test class com.firstproject.projectboard.repository.JpaRepositoryTest
+  <system-out><![CDATA[2023-01-04T01:51:54.483+09:00  INFO 11468 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.firstproject.projectboard.repository.JpaRepositoryTest]: JpaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-01-04T01:51:54.493+09:00  INFO 11468 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.firstproject.projectboard.ProjectBoardApplication for test class com.firstproject.projectboard.repository.JpaRepositoryTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -16,16 +16,16 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.1)
 
-2023-01-03T23:31:54.183+09:00  INFO 17812 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Starting JpaRepositoryTest using Java 17.0.5 with PID 17812 (started by 준성이 in C:\Users\준성이\Desktop\fastcampus\FirstProject\project-board)
-2023-01-03T23:31:54.183+09:00 DEBUG 17812 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Running with Spring Boot v3.0.1, Spring v6.0.3
-2023-01-03T23:31:54.183+09:00  INFO 17812 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : No active profile set, falling back to 1 default profile: "default"
-2023-01-03T23:31:54.241+09:00  INFO 17812 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-01-03T23:31:54.250+09:00  INFO 17812 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
-2023-01-03T23:31:54.260+09:00  INFO 17812 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2023-01-03T23:31:54.278+09:00  INFO 17812 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:c3bdff1d-32a7-46a2-bae3-0fc7744f2604;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2023-01-03T23:31:54.428+09:00  INFO 17812 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-01-03T23:31:54.432+09:00  WARN 17812 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2023-01-03T23:31:54.449+09:00  INFO 17812 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-04T01:51:54.512+09:00  INFO 11468 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Starting JpaRepositoryTest using Java 17.0.5 with PID 11468 (started by 준성이 in C:\Users\준성이\Desktop\fastcampus\FirstProject\project-board)
+2023-01-04T01:51:54.512+09:00 DEBUG 11468 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Running with Spring Boot v3.0.1, Spring v6.0.3
+2023-01-04T01:51:54.512+09:00  INFO 11468 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : No active profile set, falling back to 1 default profile: "default"
+2023-01-04T01:51:54.563+09:00  INFO 11468 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-04T01:51:54.571+09:00  INFO 11468 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2023-01-04T01:51:54.580+09:00  INFO 11468 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-01-04T01:51:54.593+09:00  INFO 11468 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:fe39cb36-98cf-4716-ad60-6314db26813d;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-01-04T01:51:54.769+09:00  INFO 11468 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-04T01:51:54.771+09:00  WARN 11468 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-04T01:51:54.781+09:00  INFO 11468 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 Hibernate: 
     
     drop table if exists article cascade 
@@ -70,9 +70,9 @@ Hibernate:
        add constraint FKghmocqkgqs5tkmucf5putw64t 
        foreign key (article_id) 
        references article
-2023-01-03T23:31:54.520+09:00  INFO 17812 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-01-03T23:31:54.521+09:00  INFO 17812 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-01-03T23:31:54.610+09:00  INFO 17812 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Started JpaRepositoryTest in 0.446 seconds (process running for 5.588)
+2023-01-04T01:51:54.854+09:00  INFO 11468 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-04T01:51:54.854+09:00  INFO 11468 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-04T01:51:54.929+09:00  INFO 11468 --- [    Test worker] c.f.p.repository.JpaRepositoryTest       : Started JpaRepositoryTest in 0.433 seconds (process running for 6.841)
 Hibernate: 
     select
         a1_0.id,

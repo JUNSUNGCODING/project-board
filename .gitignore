@@ -27,8 +27,10 @@
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
-.gradle/*
-build/*
+# .gradle 폴더, build 폴더 하위 파일들 무시
+.gradle/
+build/
+
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
